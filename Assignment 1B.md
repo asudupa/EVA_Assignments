@@ -26,6 +26,7 @@ How many times do we need to perform 3x3 convolution operation to reach 1x1 from
 Without Maxpooling, it takes 99 operations to reach 199x199 to 1x1.
 
 In below list, each convolution operation (3x3) reduces the receptive field size by 2(with stride of 1 and padding 0). As counted, below the convolution size is the layer count.
+
 199	197	195	193	191	189	187	185	183	181	179	177	175	173	171	169	167	165	163	161	159	157	155	153	151	149
 	   1	 2	3	  4	   5	 6	 7	 8	 9	10	 11	 12	13	14	15	16	17	18	19	20	21	22	23	24	25
 																									
