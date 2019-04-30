@@ -1,8 +1,8 @@
 # EVA Project1 - Assignment 1B
 What are Channels and Kernels (according to EVA)?  
-Kernel in a matrix which filter features from the input image when applied. Kernel; typically of size 3x3 is convolued over input layer to get an output. Kernel values depend on what feature is been extracted. Initally set random numbers, updated during back propagation for effective extraction of features. In initial layers basic features like edges, shades are extracted, it progressively extracts complex features in later layers.  
+**Kernel** in a matrix which filter features from the input image when applied. Kernel; typically of size 3x3 is convolued over input layer to get an output. Kernel values depend on what feature is been extracted. Initally set random numbers, updated during back propagation for effective extraction of features. In initial layers basic features like edges, shades are extracted, it progressively extracts complex features in later layers.  
 
-Channel is convolved   
+**Channel** is a container for convolved feature, extracted by kernel. There can be multiple chanels from a given input; at begining recieving raw input image or output of a convolution of a layer being fed as input to next layer.
 
 
 
@@ -18,8 +18,8 @@ Because of larger number of layers required to cover the image, complex and npn-
 
 
 
-![alt text](https://github.com/asudupa/Project1/blob/master/conv.gif)
-![alt text](https://github.com/asudupa/Project1/blob/master/convolution.png)
+![alt text](https://github.com/asudupa/Project1/blob/master/conv.gif)  
+![alt text](https://github.com/asudupa/Project1/blob/master/convolution.png)  
 
 
 
