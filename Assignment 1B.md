@@ -10,7 +10,9 @@ What are Channels and Kernels (according to EVA)?
 
 
 Why should we only (well mostly) use 3x3 Kernels?
-
+3x3 is popular and widely used kernel size in the industry. Kernel size is always set to odd number (square matrix) as even numbered filter does not facilitate in maintaining symetry, and also to avoid waste of computational capacity. 
+Hardware manufacturers have optimized the GPU for 3x3 kernel. Thus computation is much faster compared to larger filters. Using larger kernels will take more time than 3x3.
+Further 3x3 kernel helps in reducing the parameters for computation than larger filters. For ex: on a 7x7 input image, a 5x5 kernel will have to scan twice (5x5, 1x1) to reach 1x1; (5x5) + (5x5) = 50 parameters, while a 3x3 kernel will take 3 scans; 5x5, 3x3, 1x1, 9+9+9 = 27 parameters, which is 23 lesser than 5x5.
 
 
 
