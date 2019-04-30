@@ -19,6 +19,8 @@ Because of larger number of layers required to cover the image, complex and npn-
 
 
 ![alt text](https://github.com/asudupa/Project1/blob/master/conv.gif)
+![alt text](https://github.com/asudupa/Project1/blob/master/convolution.png)
+
 
 
 
