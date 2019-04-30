@@ -1,14 +1,14 @@
 # EVA Project1 - Assignment 1B
-What are Channels and Kernels (according to EVA)?
-Kernel in a matrix which filter features from the input image when applied. Kernel; typically of size 3x3 is convolued over input layer to get an output. Kernel values depend on what feature is been extracted. Initally set random numbers, updated during back propagation for effective extraction of features. In initial layers basic features like edges, shades are extracted, it progressively extracts complex features in later layers.
+What are Channels and Kernels (according to EVA)?  
+Kernel in a matrix which filter features from the input image when applied. Kernel; typically of size 3x3 is convolued over input layer to get an output. Kernel values depend on what feature is been extracted. Initally set random numbers, updated during back propagation for effective extraction of features. In initial layers basic features like edges, shades are extracted, it progressively extracts complex features in later layers.  
 
-Channel is convolved 
-
-
+Channel is convolved   
 
 
 
-Why should we only (well mostly) use 3x3 Kernels?
+
+
+Why should we only (well mostly) use 3x3 Kernels?  
 3x3 is popular and widely used kernel size in the industry. Kernel size is always set to odd number (square matrix) as even numbered filter does not facilitate in maintaining symetry, and also to avoid waste of computational capacity. 
 Local receptive field with 3x3 is smaller thus captures complex, local and finer details in each convolution. These finer details might be useful in later layers.
 Hardware manufacturers have optimized the GPU for 3x3 kernel. Thus computation is much faster compared to larger filters. Using larger kernels will take more time than 3x3.
